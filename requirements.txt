@@ -2,4 +2,5 @@ pytest
 #allure
 assertpy
 python-dotenv
-
+selenium
+pytest-selenium

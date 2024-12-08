@@ -1,5 +1,0 @@
-pytest
-allure
-assertpy
-python-dotenv
-
