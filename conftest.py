@@ -19,6 +19,10 @@ class Browser:
         self.driver.quit()
 
 @pytest.fixture(scope="session")
+def browser_name(request):
+    return request.config.getoption("--browser_name")
+
+@pytest.fixture(scope="session")
 def url():
     return URL
 
