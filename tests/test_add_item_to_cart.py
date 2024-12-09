@@ -16,6 +16,9 @@ def test_add_item_to_cart_randomly(browser):
     #initiate adding item to cart randomly
 
     addItem = AddToCart(browser)
-    addItem.select_item_to_add()
+    # addItem.select_item_to_add()
+
+    addItem.selectItemToAdd()
+    # print(addItem.selectItemToAdd())
 
     time.sleep(5)
