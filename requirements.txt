@@ -1,6 +1,9 @@
 pytest
-#allure
+allure-pytest
+allure-python-commons
 assertpy
 python-dotenv
 selenium
 pytest-selenium
+pytest-html-reporter
+pytest-html
