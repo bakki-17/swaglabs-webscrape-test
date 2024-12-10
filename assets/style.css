@@ -317,3 +317,8 @@ div.media {
 .filter__label {
   margin-right: 10px;
 }
+
+#environment-header,
+#environment {
+  display: none;
+}
