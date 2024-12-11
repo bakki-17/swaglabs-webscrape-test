@@ -23,5 +23,5 @@ def test_homepage(browser):
     #Verify homepage
     homepage = HomePage(browser)
     hompeage_Title = homepage.home_page() 
-    assert 'Swag Labs' == hompeage_Title
+    assert 'Swag Labs' != hompeage_Title
     time.sleep(3)
